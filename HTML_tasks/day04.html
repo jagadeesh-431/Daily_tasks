@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 4 - Registration Form</title>
+</head>
+<body>
+  <header>
+    <h1>Registration Form</h1>
+    <p>Fill in the form below to register.</p>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+      <p>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full_name">
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+      </p>
+      <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+      </p>
+      <p>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120">
+      </p>
+      <p>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+      </p>
+
+      <p>Gender:</p>
+      <p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </p>
+
+      <p>Interests:</p>
+      <p>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+      </p>
+
+      <p>
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+          <option value="">Choose Department</option>
+          <option value="cse">Computer Science</option>
+          <option value="ece">Electronics</option>
+          <option value="mech">Mechanical</option>
+        </select>
+      </p>
+
+      <p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </p>
+    </form>
+  </main>
+
+  <footer>
+    <p>Day 4 basic form practice.</p>
+  </footer>
+</body>
+</html>
